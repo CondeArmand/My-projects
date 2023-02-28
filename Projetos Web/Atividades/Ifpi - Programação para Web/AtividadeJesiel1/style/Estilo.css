@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #8e7cc3;
+    height: 60px;
+    width: available;
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.logo p {
+    background-color: #eeeeee;
+    color: black;
+    margin: 0;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+div a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+div p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco1 {
+    background-color: #6aa84f;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    border: 2px solid lightskyblue;
+    border-radius: 25px;
+}
+
+.bloco1 p {
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bloco2 {
+    background-color: #6fa8dc;
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.bloco2 p {
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bloco3 p {
+    color: black;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bloco3 {
+    background-color: #f6b26b;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #999999;
+    height: 60px;
+    width: available;
+    margin: 0;
+}

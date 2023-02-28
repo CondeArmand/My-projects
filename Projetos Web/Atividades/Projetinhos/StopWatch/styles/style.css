@@ -1,0 +1,53 @@
+body {
+    background: orange;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-style: normal;
+}
+
+div#res {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-size: 24pt;
+}
+
+div#Buttons {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-size: 24pt;
+}
+
+input#startbtn {
+    background: white;
+    color: orange;
+    font-size: 24pt;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input#stopbtn {
+    background: white;
+    color: orange;
+    font-size: 24pt;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input#resetbtn {
+    background: white;
+    color: orange;
+    font-size: 24pt;
+    font-weight: bold;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+}

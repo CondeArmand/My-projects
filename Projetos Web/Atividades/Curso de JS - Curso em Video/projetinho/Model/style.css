@@ -1,0 +1,38 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+}
+
+select#flista {
+    width: 100%;
+}
+
+footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+

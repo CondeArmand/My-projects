@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é Brasa ou não?</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input {
+            margin: 10px;
+        }
+
+        div#res {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+        }
+
+        input#txtnac {
+            width: 200px;
+        }
+
+        input#txtnac:focus {
+            background-color: #fff;
+            color: #000;
+        }
+
+        input#txtnac::placeholder {
+            color: #000;
+        }
+
+        input#btnVerificar {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Você é Brasa ou não? Responde aí</h1>
+    <input type="text" name="txtnacionalidade" id="txtnac">
+    <input type="button" value="Verificar" id="btnVerificar" onclick="verificarNac()">
+    <div id="res">Resultado</div>
+
+    <script>
+        function verificarNac() {
+            var txtn = document.querySelector('input#txtnac')
+            var res = document.querySelector('div#res')
+            var resp = txtn.value
+            var checar = resp[0].toUpperCase() + resp.slice(1).toLowerCase()
+
+            if (checar == 'Brasil') {
+                res.innerHTML = `Você disse que é do(a) ${checar}? Aí sim brother!`
+            } else {
+                res.innerHTML = `Você disse que é do(a) ${checar}? Sai pra lá gringo!`
+            }
+        }
+    </script>
+</body>
+</html>
